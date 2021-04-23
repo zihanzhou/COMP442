@@ -1,0 +1,71 @@
+[inlinecmt, //  Assignment 4 coverage:, 1] [inlinecmt, //       -------------, 2] [inlinecmt, //       | YES | NO  |, 3] [inlinecmt, //       -------------, 4] [inlinecmt, //  1.1: |  X  |     |, 5] [inlinecmt, //  1.2: |  X  |     |, 6] [inlinecmt, //  1.3: |  X  |     |, 7] [inlinecmt, //  1.4: |  X  |     |, 8] [inlinecmt, //  2.1: |  X  |     |, 9] [inlinecmt, //  2.2: |  X  |     |, 10] [inlinecmt, //  2.3: |  X  |     |, 11] [inlinecmt, //  2.4: |  X  |     |, 12] [inlinecmt, //  3.1: |  X  |     |, 13] [inlinecmt, //  3.2: |  X  |     |, 14] [inlinecmt, //  3.3: |  X  |     |, 15] [inlinecmt, //  3.4: |  X  |     |, 16] [inlinecmt, //  4.1: |  X  |     |, 17] [inlinecmt, //  4.2: |  X  |     |, 18] [inlinecmt, //  4.3: |  X  |     |, 19] [inlinecmt, //  4.4: |  X  |     |, 20] [inlinecmt, //  5.1: |  X  |     |, 21] [inlinecmt, //  5.2: |  X  |     |, 22] [inlinecmt, //  5.3: |  X  |     |, 23] [inlinecmt, //       -------------, 24] 
+[inlinecmt, //  ====== Class declarations ====== //, 26] [class, class, 27] [id, POLYNOMIAL, 27] 
+[opencubr, {, 28] 
+[public, public, 29] [func, func, 29] [id, evaluate, 29] [openpar, (, 29] [float, float, 29] [id, x, 29] [closepar, ), 29] [colon, :, 29] [float, float, 29] [semi, ;, 29] 
+[closecubr, }, 30] [semi, ;, 30] 
+
+[class, class, 32] [id, LINEAR, 32] [inherits, inherits, 32] [id, POLYNOMIAL, 32] 
+[opencubr, {, 33] 
+[private, private, 34] [float, float, 34] [id, a, 34] [semi, ;, 34] 
+[private, private, 35] [float, float, 35] [id, b, 35] [semi, ;, 35] 
+
+[public, public, 37] [func, func, 37] [id, build, 37] [openpar, (, 37] [float, float, 37] [id, A, 37] [comma, ,, 37] [float, float, 37] [id, B, 37] [closepar, ), 37] [colon, :, 37] [id, LINEAR, 37] [semi, ;, 37] 
+[public, public, 38] [func, func, 38] [id, evaluate, 38] [openpar, (, 38] [float, float, 38] [id, x, 38] [closepar, ), 38] [colon, :, 38] [float, float, 38] [semi, ;, 38] 
+[closecubr, }, 39] [semi, ;, 39] 
+
+[class, class, 41] [id, QUADRATIC, 41] [inherits, inherits, 41] [id, POLYNOMIAL, 41] 
+[opencubr, {, 42] 
+[private, private, 43] [float, float, 43] [id, a, 43] [semi, ;, 43] 
+[private, private, 44] [float, float, 44] [id, b, 44] [semi, ;, 44] 
+[private, private, 45] [float, float, 45] [id, c, 45] [semi, ;, 45] 
+[private, private, 46] [float, float, 46] [id, d, 46] [opensqbr, [, 46] [intnum, 10, 46] [closesqbr, ], 46] [semi, ;, 46] 
+
+[public, public, 48] [func, func, 48] [id, build, 48] [openpar, (, 48] [float, float, 48] [id, A, 48] [comma, ,, 48] [float, float, 48] [id, B, 48] [comma, ,, 48] [float, float, 48] [id, C, 48] [closepar, ), 48] [colon, :, 48] [id, QUADRATIC, 48] [semi, ;, 48] 
+[public, public, 49] [func, func, 49] [id, evaluate, 49] [openpar, (, 49] [float, float, 49] [id, x, 49] [closepar, ), 49] [colon, :, 49] [float, float, 49] [semi, ;, 49] 
+[closecubr, }, 50] [semi, ;, 50] 
+
+[inlinecmt, //  ====== Function Definitions ====== //, 52] [func, func, 53] [id, POLYNOMIAL, 53] [coloncolon, ::, 53] [id, evaluate, 53] [openpar, (, 53] [float, float, 53] [id, x, 53] [closepar, ), 53] [colon, :, 53] [float, float, 53] [inlinecmt, //  2.1, 2.2, 53] [opencubr, {, 54] 
+[return, return, 55] [openpar, (, 55] [intnum, 0, 55] [closepar, ), 55] [semi, ;, 55] [inlinecmt, //  2.3, 55] [closecubr, }, 56] 
+
+[func, func, 58] [id, LINEAR, 58] [coloncolon, ::, 58] [id, evaluate, 58] [openpar, (, 58] [float, float, 58] [id, x, 58] [closepar, ), 58] [colon, :, 58] [float, float, 58] [inlinecmt, //  2.1, 2.2, 58] [opencubr, {, 59] 
+[var, var, 60] 
+[opencubr, {, 61] 
+[float, float, 62] [id, result, 62] [semi, ;, 62] [inlinecmt, //  1.1, 62] [closecubr, }, 63] 
+[id, result, 64] [assign, =, 64] [floatnum, 0.0, 64] [semi, ;, 64] [inlinecmt, //  3.1, 64] [id, result, 65] [assign, =, 65] [id, a, 65] [mult, *, 65] [id, x, 65] [plus, +, 65] [id, b, 65] [semi, ;, 65] [inlinecmt, //  3.1, 5.1, 65] [return, return, 66] [openpar, (, 66] [id, result, 66] [closepar, ), 66] [semi, ;, 66] [inlinecmt, //  2.3, 66] [closecubr, }, 67] 
+
+[func, func, 69] [id, QUADRATIC, 69] [coloncolon, ::, 69] [id, evaluate, 69] [openpar, (, 69] [float, float, 69] [id, x, 69] [closepar, ), 69] [colon, :, 69] [float, float, 69] [inlinecmt, //  2.1, 2.2, 69] [opencubr, {, 70] 
+[var, var, 71] 
+[opencubr, {, 72] 
+[float, float, 73] [id, result, 73] [semi, ;, 73] [inlinecmt, //  1.1, 73] [closecubr, }, 74] 
+[inlinecmt, // Using Horner's method, 75] [id, result, 76] [assign, =, 76] [id, a, 76] [semi, ;, 76] [inlinecmt, //  3.1, 76] [id, result, 77] [assign, =, 77] [id, result, 77] [mult, *, 77] [id, x, 77] [plus, +, 77] [id, b, 77] [semi, ;, 77] [inlinecmt, //  3.1, 5.1, 77] [id, result, 78] [assign, =, 78] [id, result, 78] [mult, *, 78] [id, x, 78] [plus, +, 78] [id, c, 78] [semi, ;, 78] [inlinecmt, //  3.1, 5.1, 78] [return, return, 79] [openpar, (, 79] [id, result, 79] [closepar, ), 79] [semi, ;, 79] [inlinecmt, //  2.3, 79] [closecubr, }, 80] 
+
+[func, func, 82] [id, LINEAR, 82] [coloncolon, ::, 82] [id, build, 82] [openpar, (, 82] [float, float, 82] [id, A, 82] [comma, ,, 82] [float, float, 82] [id, B, 82] [closepar, ), 82] [colon, :, 82] [id, LINEAR, 82] [inlinecmt, //  2.1, 2.2, 82] [opencubr, {, 83] 
+[var, var, 84] 
+[opencubr, {, 85] 
+
+[id, LINEAR, 87] [id, new_function, 87] [semi, ;, 87] [inlinecmt, //  1.3, 87] [closecubr, }, 88] 
+
+[id, new_function, 90] [dot, ., 90] [id, a, 90] [assign, =, 90] [id, A, 90] [semi, ;, 90] [inlinecmt, //  3.1, 5.3, 90] [write, write, 91] [openpar, (, 91] [id, new_function, 91] [dot, ., 91] [id, a, 91] [closepar, ), 91] [semi, ;, 91] [inlinecmt, // 4.3     new_function.b = B;                                           // 3.1, 5.3, 91] 
+[return, return, 93] [openpar, (, 93] [id, new_function, 93] [closepar, ), 93] [semi, ;, 93] [inlinecmt, //  2.3, 93] [closecubr, }, 94] 
+
+[func, func, 96] [id, QUADRATIC, 96] [coloncolon, ::, 96] [id, build, 96] [openpar, (, 96] [float, float, 96] [id, A, 96] [comma, ,, 96] [float, float, 96] [id, B, 96] [comma, ,, 96] [float, float, 96] [id, C, 96] [closepar, ), 96] [colon, :, 96] [id, QUADRATIC, 96] [inlinecmt, //  2.1, 2.2, 96] [opencubr, {, 97] 
+[var, var, 98] 
+[opencubr, {, 99] 
+
+[id, QUADRATIC, 101] [id, new_function, 101] [semi, ;, 101] [inlinecmt, //  1.3, 101] [closecubr, }, 102] 
+[id, new_function, 103] [dot, ., 103] [id, a, 103] [assign, =, 103] [id, A, 103] [semi, ;, 103] [inlinecmt, //  3.1, 5.3, 103] [id, new_function, 104] [dot, ., 104] [id, b, 104] [assign, =, 104] [id, B, 104] [semi, ;, 104] [inlinecmt, //  3.1, 5.3, 104] [id, new_function, 105] [dot, ., 105] [id, c, 105] [assign, =, 105] [id, C, 105] [semi, ;, 105] [inlinecmt, //  3.1, 5.3, 105] [return, return, 106] [openpar, (, 106] [id, new_function, 106] [closepar, ), 106] [semi, ;, 106] [inlinecmt, //  2.3, 106] [closecubr, }, 107] 
+
+
+[inlinecmt, //  ====== main ====== //, 110] [main, main, 111] 
+[opencubr, {, 112] 
+[var, var, 113] 
+[opencubr, {, 114] 
+[id, LINEAR, 115] [id, f1, 115] [semi, ;, 115] [inlinecmt, //  1.3, 115] [id, QUADRATIC, 116] [id, f2, 116] [semi, ;, 116] [inlinecmt, //  1.3, 116] [float, float, 117] [id, counter, 117] [semi, ;, 117] [inlinecmt, //  1.1, 117] [float, float, 118] [id, arr, 118] [opensqbr, [, 118] [intnum, 7, 118] [closesqbr, ], 118] [semi, ;, 118] [inlinecmt, // 1.4     LINEAR f3[10];, 118] 
+[integer, integer, 120] [id, i, 120] [semi, ;, 120] 
+[closecubr, }, 121] 
+[id, i, 122] [assign, =, 122] [intnum, 0, 122] [semi, ;, 122] 
+[id, arr, 123] [opensqbr, [, 123] [intnum, 1, 123] [closesqbr, ], 123] [assign, =, 123] [floatnum, 0.0, 123] [semi, ;, 123] [inlinecmt, // 4.1     write(f3[1]);                                               //4.2, 123] 
+[write, write, 125] [openpar, (, 125] [id, f2, 125] [dot, ., 125] [id, d, 125] [opensqbr, [, 125] [intnum, 1, 125] [closesqbr, ], 125] [closepar, ), 125] [semi, ;, 125] [inlinecmt, // 4.4     write(arr[i]);                                              //5.2, 125] 
+[id, f2, 127] [assign, =, 127] [id, f2, 127] [plus, +, 127] [id, f2, 127] [semi, ;, 127] 
+[id, f1, 128] [assign, =, 128] [id, f1, 128] [dot, ., 128] [id, build, 128] [openpar, (, 128] [floatnum, 2.0, 128] [comma, ,, 128] [floatnum, 3.5, 128] [closepar, ), 128] [semi, ;, 128] [inlinecmt, //  2.1, 2.2, 2.4, 128] [id, f2, 129] [assign, =, 129] [id, f2, 129] [dot, ., 129] [id, build, 129] [openpar, (, 129] [minus, -, 129] [floatnum, 2.0, 129] [comma, ,, 129] [floatnum, 1.0, 129] [comma, ,, 129] [floatnum, 0.0, 129] [closepar, ), 129] [semi, ;, 129] [inlinecmt, //  2.1, 2.2, 2.4, 129] [id, counter, 130] [assign, =, 130] [floatnum, 1.0, 130] [semi, ;, 130] [inlinecmt, //  3.1, 130] [while, while, 131] [openpar, (, 131] [id, counter, 131] [leq, <=, 131] [floatnum, 10.0, 131] [closepar, ), 131] [opencubr, {, 131] [inlinecmt, //  3.3, 5.1, 131] [write, write, 132] [openpar, (, 132] [id, counter, 132] [closepar, ), 132] [semi, ;, 132] [inlinecmt, //  3.4, 132] [write, write, 133] [openpar, (, 133] [id, f1, 133] [dot, ., 133] [id, evaluate, 133] [openpar, (, 133] [id, counter, 133] [closepar, ), 133] [closepar, ), 133] [semi, ;, 133] [inlinecmt, //  3.4, 2.1, 2.2, 2.4, 133] [write, write, 134] [openpar, (, 134] [id, f2, 134] [dot, ., 134] [id, evaluate, 134] [openpar, (, 134] [id, counter, 134] [closepar, ), 134] [closepar, ), 134] [semi, ;, 134] [inlinecmt, //  3.4, 2.1, 2.2, 2.4, 134] [closecubr, }, 135] [semi, ;, 135] 
+[closecubr, }, 136] 

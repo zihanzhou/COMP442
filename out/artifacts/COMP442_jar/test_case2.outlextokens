@@ -1,0 +1,30 @@
+[invalidchar, @, 1] [invalidchar, #, 1] [invalidchar, $, 1] [invalidchar, ', 1] [invalidchar, \, 1] [invalidchar, ~, 1] [invalidchar, ", 1] 
+[invalidid, ~!@#$%^&*(), 2] 
+[invalidid, (ok), 3] 
+[invalidid, {hello, 4] [invalidid, world}, 4] 
+[invalidid, \brief, 5] [id, report, 5] 
+[invalidnum, 00, 6] 
+[invalidnum, 01, 7] 
+[invalidnum, 010, 8] 
+[invalidnum, 0120, 9] 
+[invalidnum, 01230, 10] 
+[invalidnum, 0123450, 11] 
+
+[invalidnum, 01.23, 13] 
+[invalidnum, 012.34, 14] 
+[invalidnum, 12.340, 15] 
+[invalidnum, 012.340, 16] 
+
+[invalidnum, 012.34e10, 18] 
+[invalidnum, 12.34e010, 19] 
+
+[invalidid, _abc, 21] 
+[invalidid, 1abc, 22] 
+[invalidid, _1abc, 23] 
+[invalidid, 1_abc, 24] 
+[invalidid, a1b1--c, 25] 
+
+[stringlit, "abc 123 adsf", 27] 
+[invalidstringlit, "abc ", 28] 
+
+[invalidstringlit, "abcde@^#*&@!(&$(!@*(@(*$#(@*&#$", 30] 

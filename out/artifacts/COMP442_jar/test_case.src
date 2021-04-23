@@ -1,0 +1,45 @@
+==	+	|	(	;	if 	public	read
+<>	-	&	)	,	then	private	write
+<	*	!	{	.	else	func	return
+>	/	?	}	:	integer	var	main
+<=	=		[	::	float	class	inherits
+>=			]		string	while	break
+					void		continue
+
+@ #
+$
+\
+~
+
+0 1 2 3 4 5 6 7 8 9
+0.0
+1.23e-+10
+120.540e1020
+045.540eeeee123
+1.23e+0101
+
+abc 	
+abc1
+9abc
+@12345
+gmail.com
+kevin // this is a comment behind
+
+/* this is a single line block comment */
+
+/* this is a 
+multiple line
+block comment 
+*/
+
+// this is an inline comment
+
+"this is a string literal"
+
+/ this is an inccorect inline comment
+
+/* this is an incorrect block
+comment
+this
+is
+incomplete *

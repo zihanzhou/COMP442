@@ -1,0 +1,126 @@
+
+=====================================================
+| table: global           scope offset: 0           |
+=====================================================
+| class     | POLYNOMIAL                            |
+|    =====================================================
+|    | table: POLYNOMIAL       scope offset: -4          |
+|    =====================================================
+|    | Inherit   | EPSILON     0                         |
+|    | func      | evaluate  | (float )float| public    |
+|    |    =====================================================
+|    |    | table: POLYNOMIAL::evaluate scope offset: 0           |
+|    |    =====================================================
+|    |    =====================================================
+|    =====================================================
+| class     | LINEAR                                |
+|    =====================================================
+|    | table: LINEAR           scope offset: -20         |
+|    =====================================================
+|    | Inherit   | POLYNOMIAL  4                         |
+|    | data      | a         | float     | null      | 8     | -12   |
+|    | data      | b         | float     | null      | 8     | -20   |
+|    | func      | build     | (float float )LINEAR| public    |
+|    |    =====================================================
+|    |    | table: LINEAR::build    scope offset: 0           |
+|    |    =====================================================
+|    |    =====================================================
+|    | func      | evaluate  | (float )float| public    |
+|    |    =====================================================
+|    |    | table: LINEAR::evaluate scope offset: 0           |
+|    |    =====================================================
+|    |    =====================================================
+|    =====================================================
+| class     | QUADRATIC                             |
+|    =====================================================
+|    | table: QUADRATIC        scope offset: -108        |
+|    =====================================================
+|    | Inherit   | POLYNOMIAL  4                         |
+|    | data      | a         | float     | null      | 8     | -12   |
+|    | data      | b         | float     | null      | 8     | -20   |
+|    | data      | c         | float     | null      | 8     | -28   |
+|    | data      | d         | float     | [10]      | 80    | -108  |
+|    | func      | build     | (float float float )QUADRATIC| public    |
+|    |    =====================================================
+|    |    | table: QUADRATIC::build scope offset: 0           |
+|    |    =====================================================
+|    |    =====================================================
+|    | func      | evaluate  | (float )float| public    |
+|    |    =====================================================
+|    |    | table: QUADRATIC::evaluate scope offset: 0           |
+|    |    =====================================================
+|    |    =====================================================
+|    =====================================================
+| func      | evaluate  | (float )float|           |
+|    |    =====================================================
+|    |    | table: POLYNOMIAL::evaluate scope offset: -24         |
+|    |    =====================================================
+|    |    | param     | x         | float     | null      | 8     | -20   |
+|    |    | litval    | t1        | intnum    | []        | 4     | -24   |
+|    |    =====================================================
+| func      | evaluate  | (float )float|           |
+|    |    =====================================================
+|    |    | table: LINEAR::evaluate scope offset: -52         |
+|    |    =====================================================
+|    |    | param     | x         | float     | null      | 8     | -20   |
+|    |    | local     | result    | float     | null      | 8     | -28   |
+|    |    | litval    | t2        | floatnum  | []        | 8     | -36   |
+|    |    | tempvar   | t3        | float     | null      | 8     | -44   |
+|    |    | tempvar   | t4        | float     | null      | 8     | -52   |
+|    |    =====================================================
+| func      | evaluate  | (float )float|           |
+|    |    =====================================================
+|    |    | table: QUADRATIC::evaluate scope offset: -60         |
+|    |    =====================================================
+|    |    | param     | x         | float     | null      | 8     | -20   |
+|    |    | local     | result    | float     | null      | 8     | -28   |
+|    |    | tempvar   | t5        | float     | null      | 8     | -36   |
+|    |    | tempvar   | t6        | float     | null      | 8     | -44   |
+|    |    | tempvar   | t7        | float     | null      | 8     | -52   |
+|    |    | tempvar   | t8        | float     | null      | 8     | -60   |
+|    |    =====================================================
+| func      | build     | (float float )LINEAR|           |
+|    |    =====================================================
+|    |    | table: LINEAR::build    scope offset: -60         |
+|    |    =====================================================
+|    |    | param     | A         | float     | null      | 8     | -32   |
+|    |    | param     | B         | float     | null      | 8     | -40   |
+|    |    | local     | new_function| LINEAR    | null      | 20    | -60   |
+|    |    =====================================================
+| func      | build     | (float float float )QUADRATIC|           |
+|    |    =====================================================
+|    |    | table: QUADRATIC::build scope offset: -244        |
+|    |    =====================================================
+|    |    | param     | A         | float     | null      | 8     | -120  |
+|    |    | param     | B         | float     | null      | 8     | -128  |
+|    |    | param     | C         | float     | null      | 8     | -136  |
+|    |    | local     | new_function| QUADRATIC | null      | 108   | -244  |
+|    |    =====================================================
+| func      | main      | ()        |           |
+|    |    =====================================================
+|    |    | table: ::main           scope offset: -388        |
+|    |    =====================================================
+|    |    | local     | f1        | LINEAR    | null      | 20    | -20   |
+|    |    | local     | f2        | QUADRATIC | null      | 108   | -128  |
+|    |    | local     | counter   | float     | null      | 8     | -136  |
+|    |    | local     | arr       | float     | [7]       | 56    | -192  |
+|    |    | local     | i         | integer   | null      | 4     | -196  |
+|    |    | litval    | t9        | intnum    | []        | 4     | -200  |
+|    |    | litval    | t10       | intnum    | []        | 4     | -204  |
+|    |    | litval    | t11       | floatnum  | []        | 8     | -212  |
+|    |    | litval    | t12       | intnum    | []        | 4     | -216  |
+|    |    | tempvar   | t13       | QUADRATIC | null      | 108   | -324  |
+|    |    | litval    | t14       | floatnum  | []        | 8     | -332  |
+|    |    | litval    | t15       | floatnum  | []        | 8     | -340  |
+|    |    | retval    | t16       | LINEAR    | []        | 0     | -340  |
+|    |    | litval    | t17       | floatnum  | []        | 8     | -348  |
+|    |    | litval    | t18       | floatnum  | []        | 8     | -356  |
+|    |    | litval    | t19       | floatnum  | []        | 8     | -364  |
+|    |    | retval    | t20       | QUADRATIC | []        | 0     | -364  |
+|    |    | litval    | t21       | floatnum  | []        | 8     | -372  |
+|    |    | litval    | t22       | floatnum  | []        | 8     | -380  |
+|    |    | tempvar   | t23       | float     | null      | 8     | -388  |
+|    |    | retval    | t24       | float     | []        | 0     | -388  |
+|    |    | retval    | t25       | float     | []        | 0     | -388  |
+|    |    =====================================================
+=====================================================

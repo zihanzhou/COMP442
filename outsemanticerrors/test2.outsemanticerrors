@@ -1,0 +1,14 @@
+Overloaded free function: bubbleSort at line : 6
+undeclared member function definition: POLYNOMIAL::evaluate at line : 14
+Overloaded free function: add at line : 22
+Undeclared class linear in function at line : 30
+Undeclared class quadratic in function at line : 31
+multiply declared identifier f2 in function at line : 34
+multiply declared identifier arr in function at line : 36
+Type error in assignment statement in line 40
+Type error in assignment statement in line 41
+Function call with wrong type of parameters in line 43
+Use of array with wrong number of dimensions : arr2 at line 45
+Function call with wrong type of parameters in line 45
+Function call with wrong type of parameters in line 50
+Function call with wrong type of parameters in line 51

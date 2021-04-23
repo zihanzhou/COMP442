@@ -1,0 +1,37 @@
+Overloaded member function in POLYNOMIAL::evaluate at line : 9
+shadowed inherited data member in class LINEAR variable a at line : 12
+multiply declared identifier in class LINEAR variable b at line : 14
+shadowed inherited data member in class QUADRATIC variable a at line : 21
+undeclared member function definition: QUADRATIC::build2 at line : 96
+multiply defined free function: f at line : 109
+Overloaded free function: f at line : 110
+undefined member function definition: POLYNOMIAL::evaluate2
+undefined member function definition: POLYNOMIAL::evaluate
+undefined member function definition: POLYNOMIAL::evaluate
+multiply declared identifier result in function at line : 64
+Undeclared class A in function at line : 120
+multiply declared identifier counter in function at line : 125
+Type error in expression in line 0
+Type error in expression in line 0
+Type error in assignment statement in line 90
+Type error in assignment statement in line 92
+Function call with wrong type of parameters in line 129
+Type error in assignment statement in line 129
+Undeclared data member c in line 132
+Type error in assignment statement in line 132
+Undeclared member function f in line 133
+Type error in assignment statement in line 133
+Type error in assignment statement in line 135
+Function call with wrong type of parameters in line 137
+Use of array with wrong number of dimensions : i at line 138
+Array index is not an integer in line 139
+Array index is not an integer in line 139
+Use of array with wrong number of dimensions : j at line 140
+Array parameter using wrong number of dimensions 140
+"." operator used on non-class type in line counter in line 141
+Type error in assignment statement in line 141
+Use of array with wrong number of dimensions : j at line 142
+Function call with wrong type of parameters in line 146
+Function call with wrong type of parameters in line 147
+Undeclared free function undefined in line 134
+Function call with wrong number of parameters f in line 136

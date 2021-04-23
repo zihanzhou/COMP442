@@ -1,0 +1,28 @@
+
+=====================================================
+| table: global           scope offset: 0           |
+=====================================================
+| func      | main      | ()        |           |
+|    |    =====================================================
+|    |    | table: ::main           scope offset: -72         |
+|    |    =====================================================
+|    |    | local     | x         | integer   | null      | 4     | -4    |
+|    |    | local     | y         | integer   | null      | 4     | -8    |
+|    |    | local     | z         | integer   | null      | 4     | -12   |
+|    |    | litval    | t1        | intnum    | []        | 4     | -16   |
+|    |    | litval    | t2        | intnum    | []        | 4     | -20   |
+|    |    | litval    | t3        | intnum    | []        | 4     | -24   |
+|    |    | tempvar   | t4        | intnum    | []        | 4     | -28   |
+|    |    | tempvar   | t5        | intnum    | []        | 4     | -32   |
+|    |    | litval    | t6        | intnum    | []        | 4     | -36   |
+|    |    | tempvar   | t7        | integer   | null      | 4     | -40   |
+|    |    | tempvar   | t8        | integer   | null      | 4     | -44   |
+|    |    | litval    | t9        | intnum    | []        | 4     | -48   |
+|    |    | tempvar   | t10       | integer   | null      | 4     | -52   |
+|    |    | litval    | t11       | intnum    | []        | 4     | -56   |
+|    |    | tempvar   | t12       | integer   | null      | 4     | -60   |
+|    |    | litval    | t13       | intnum    | []        | 4     | -64   |
+|    |    | litval    | t14       | intnum    | []        | 4     | -68   |
+|    |    | tempvar   | t15       | integer   | null      | 4     | -72   |
+|    |    =====================================================
+=====================================================

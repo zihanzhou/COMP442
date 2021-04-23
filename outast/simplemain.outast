@@ -1,0 +1,84 @@
+Prog
+     Class List
+          EPSILON
+     Func Def List
+          EPSILON
+     Main
+          Var Decl List
+               Var Decl
+                    Type: integer :[30]
+                    id: x :[30]
+                    Dim List
+                         EPSILON
+               Var Decl
+                    Type: integer :[31]
+                    id: y :[31]
+                    Dim List
+                         EPSILON
+               Var Decl
+                    Type: integer :[32]
+                    id: z :[32]
+                    Dim List
+                         EPSILON
+          Statement List
+               Assign Stat
+                    Assign: = :[34]
+                         Var
+                              id: y :[34]
+                              EPSILON
+                         Expr
+                              +
+                                   intnum: 1 :[34]
+                                   *
+                                        intnum: 2 :[34]
+                                        intnum: 3 :[34]
+               Read
+                    Variable
+                         Var
+                              id: x :[35]
+                              EPSILON
+               if Stat
+                    Expr
+                         gt: > :[36]
+                              Var
+                                   id: x :[36]
+                                   EPSILON
+                              +
+                                   Var
+                                        id: y :[36]
+                                        EPSILON
+                                   intnum: 10 :[36]
+                    Write
+                         Expr
+                              +
+                                   Var
+                                        id: x :[38]
+                                        EPSILON
+                                   intnum: 10 :[38]
+                    Write
+                         Expr
+                              +
+                                   Var
+                                        id: x :[40]
+                                        EPSILON
+                                   intnum: 1 :[40]
+               Assign Stat
+                    Assign: = :[42]
+                         Var
+                              id: z :[42]
+                              EPSILON
+                         Expr
+                              intnum: 0 :[42]
+               While Stat
+                    Expr
+                         leq: <= :[43]
+                              Var
+                                   id: z :[43]
+                                   EPSILON
+                              intnum: 10 :[43]
+                    Write
+                         Expr
+                              Var
+                                   id: z :[44]
+                                   EPSILON
+

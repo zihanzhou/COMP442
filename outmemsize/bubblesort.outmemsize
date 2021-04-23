@@ -1,0 +1,96 @@
+
+=====================================================
+| table: global           scope offset: 0           |
+=====================================================
+| func      | bubbleSort| (integer integer )void|           |
+|    |    =====================================================
+|    |    | table: ::bubbleSort     scope offset: 0           |
+|    |    =====================================================
+|    |    | param     | arr       | integer   | [0]       | 0     | 0     |
+|    |    | param     | size      | integer   | null      | 0     | 0     |
+|    |    | local     | n         | integer   | null      | 0     | 0     |
+|    |    | local     | i         | integer   | null      | 0     | 0     |
+|    |    | local     | j         | integer   | null      | 0     | 0     |
+|    |    | local     | temp      | integer   | null      | 0     | 0     |
+|    |    =====================================================
+| func      | printArray| (integer integer )void|           |
+|    |    =====================================================
+|    |    | table: ::printArray     scope offset: 0           |
+|    |    =====================================================
+|    |    | param     | arr       | integer   | [0]       | 0     | 0     |
+|    |    | param     | size      | integer   | null      | 0     | 0     |
+|    |    | local     | n         | integer   | null      | 0     | 0     |
+|    |    | local     | i         | integer   | null      | 0     | 0     |
+|    |    =====================================================
+| func      | bubbleSort| (integer integer )void|           |
+|    |    =====================================================
+|    |    | table: ::bubbleSort     scope offset: -104        |
+|    |    =====================================================
+|    |    | param     | arr       | integer   | [0]       | 0     | -4    |
+|    |    | param     | size      | integer   | null      | 4     | -8    |
+|    |    | local     | n         | integer   | null      | 4     | -12   |
+|    |    | local     | i         | integer   | null      | 4     | -16   |
+|    |    | local     | j         | integer   | null      | 4     | -20   |
+|    |    | local     | temp      | integer   | null      | 4     | -24   |
+|    |    | litval    | t1        | intnum    | []        | 4     | -28   |
+|    |    | litval    | t2        | intnum    | []        | 4     | -32   |
+|    |    | litval    | t3        | intnum    | []        | 4     | -36   |
+|    |    | litval    | t4        | intnum    | []        | 4     | -40   |
+|    |    | tempvar   | t5        | integer   | null      | 4     | -44   |
+|    |    | tempvar   | t6        | integer   | null      | 4     | -48   |
+|    |    | tempvar   | t7        | integer   | null      | 4     | -52   |
+|    |    | litval    | t8        | intnum    | []        | 4     | -56   |
+|    |    | tempvar   | t9        | integer   | null      | 4     | -60   |
+|    |    | tempvar   | t10       | integer   | null      | 4     | -64   |
+|    |    | litval    | t11       | intnum    | []        | 4     | -68   |
+|    |    | tempvar   | t12       | integer   | null      | 4     | -72   |
+|    |    | tempvar   | t13       | integer   | [0]       | 0     | -72   |
+|    |    | litval    | t14       | intnum    | []        | 4     | -76   |
+|    |    | tempvar   | t15       | integer   | null      | 4     | -80   |
+|    |    | litval    | t16       | intnum    | []        | 4     | -84   |
+|    |    | tempvar   | t17       | integer   | null      | 4     | -88   |
+|    |    | litval    | t18       | intnum    | []        | 4     | -92   |
+|    |    | tempvar   | t19       | integer   | null      | 4     | -96   |
+|    |    | litval    | t20       | intnum    | []        | 4     | -100  |
+|    |    | tempvar   | t21       | integer   | null      | 4     | -104  |
+|    |    =====================================================
+| func      | printArray| (integer integer )void|           |
+|    |    =====================================================
+|    |    | table: ::printArray     scope offset: -32         |
+|    |    =====================================================
+|    |    | param     | arr       | integer   | [0]       | 0     | -4    |
+|    |    | param     | size      | integer   | null      | 4     | -8    |
+|    |    | local     | n         | integer   | null      | 4     | -12   |
+|    |    | local     | i         | integer   | null      | 4     | -16   |
+|    |    | litval    | t22       | intnum    | []        | 4     | -20   |
+|    |    | tempvar   | t23       | integer   | null      | 4     | -24   |
+|    |    | litval    | t24       | intnum    | []        | 4     | -28   |
+|    |    | tempvar   | t25       | integer   | null      | 4     | -32   |
+|    |    =====================================================
+| func      | main      | ()        |           |
+|    |    =====================================================
+|    |    | table: ::main           scope offset: -96         |
+|    |    =====================================================
+|    |    | local     | arr       | integer   | [7]       | 28    | -28   |
+|    |    | litval    | t26       | intnum    | []        | 4     | -32   |
+|    |    | litval    | t27       | intnum    | []        | 4     | -36   |
+|    |    | litval    | t28       | intnum    | []        | 4     | -40   |
+|    |    | litval    | t29       | intnum    | []        | 4     | -44   |
+|    |    | litval    | t30       | intnum    | []        | 4     | -48   |
+|    |    | litval    | t31       | intnum    | []        | 4     | -52   |
+|    |    | litval    | t32       | intnum    | []        | 4     | -56   |
+|    |    | litval    | t33       | intnum    | []        | 4     | -60   |
+|    |    | litval    | t34       | intnum    | []        | 4     | -64   |
+|    |    | litval    | t35       | intnum    | []        | 4     | -68   |
+|    |    | litval    | t36       | intnum    | []        | 4     | -72   |
+|    |    | litval    | t37       | intnum    | []        | 4     | -76   |
+|    |    | litval    | t38       | intnum    | []        | 4     | -80   |
+|    |    | litval    | t39       | intnum    | []        | 4     | -84   |
+|    |    | litval    | t40       | intnum    | []        | 4     | -88   |
+|    |    | retval    | t41       | void      | []        | 0     | -88   |
+|    |    | litval    | t42       | intnum    | []        | 4     | -92   |
+|    |    | retval    | t43       | void      | []        | 0     | -92   |
+|    |    | litval    | t44       | intnum    | []        | 4     | -96   |
+|    |    | retval    | t45       | void      | []        | 0     | -96   |
+|    |    =====================================================
+=====================================================

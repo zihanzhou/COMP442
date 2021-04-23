@@ -1,0 +1,38 @@
+[eq, ==, 1] [plus, +, 1] [or, |, 1] [openpar, (, 1] [semi, ;, 1] [if, if, 1] [public, public, 1] [read, read, 1] 
+[noteq, <>, 2] [minus, -, 2] [and, &, 2] [closepar, ), 2] [comma, ,, 2] [then, then, 2] [private, private, 2] [write, write, 2] 
+[lt, <, 3] [mult, *, 3] [not, !, 3] [opencubr, {, 3] [dot, ., 3] [else, else, 3] [func, func, 3] [return, return, 3] 
+[gt, >, 4] [div, /, 4] [qmark, ?, 4] [closecubr, }, 4] [colon, :, 4] [integer, integer, 4] [var, var, 4] [main, main, 4] 
+[leq, <=, 5] [assign, =, 5] [opensqbr, [, 5] [coloncolon, ::, 5] [float, float, 5] [class, class, 5] [inherits, inherits, 5] 
+[geq, >=, 6] [closesqbr, ], 6] [string, string, 6] [while, while, 6] [break, break, 6] 
+[void, void, 7] [continue, continue, 7] 
+
+[invalidchar, @, 9] [invalidchar, #, 9] 
+[invalidchar, $, 10] 
+[invalidchar, \, 11] 
+[invalidchar, ~, 12] 
+
+[intnum, 0, 14] [intnum, 1, 14] [intnum, 2, 14] [intnum, 3, 14] [intnum, 4, 14] [intnum, 5, 14] [intnum, 6, 14] [intnum, 7, 14] [intnum, 8, 14] [intnum, 9, 14] 
+[floatnum, 0.0, 15] 
+[invalidid, 1.23e-+10, 16] 
+[invalidnum, 120.540e1020, 17] 
+[invalidid, 045.540eeeee123, 18] 
+[invalidnum, 1.23e+0101, 19] 
+
+[id, abc, 21] 
+[id, abc1, 22] 
+[invalidid, 9abc, 23] 
+[invalidid, @12345, 24] 
+[invalidid, gmail.com, 25] 
+[id, kevin, 26] [inlinecmt, //this is a comment behind, 26] 
+
+[blockcmt, /*this is a single line block comment */, 28] 
+
+[blockcmt, /*this is a \nmultiple line\nblock comment \n*/, 30] 
+
+[inlinecmt, //this is an inline comment, 35] 
+
+[stringlit, "this is a string literal", 37] 
+
+[div, /, 39] [id, this, 39] [id, is, 39] [id, an, 39] [id, inccorect, 39] [id, inline, 39] [id, comment, 39] 
+
+[invalidblockcmt, /*this is an incorrect block\ncomment\nthis\nis\nincomplete *\n, 41] 

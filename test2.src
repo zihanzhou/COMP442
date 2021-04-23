@@ -1,0 +1,195 @@
+class POLYNOMIAL inherits Linear, Quadratic{
+};
+
+func bubbleSort(integer arr[][][], string size) : void {}
+
+func bubbleSort(integer arr[]) : void {}
+
+func evaluate() : int { return (1); }
+
+func toString(abc a[10]) : string {
+    return (hello);
+}
+
+func POLYNOMIAL::evaluate(float x) : float
+{
+  return (0);
+}
+
+func add(float a, float b) : void {
+}
+//123 123 123
+func add(float a, float b, float c) : void {
+}
+/*123*/
+// ====== main ====== //
+main
+{
+  var
+  {
+    linear f1;
+    quadratic f2;
+    integer counter;
+    string s1;
+    float f2;
+    integer arr[7];
+    integer arr[10][10][10];
+    integer arr3[];
+  }
+  evaluate();
+  f1 = f1.build(2, 3.5);
+  f2 = f2.build(-2.0, 1.0, 0.0);
+  counter = 1;
+  bubbleSort(arr, 7);
+  bubbleSort(arr3[10]);
+  bubbleSort(arr2[10][10][10], (4 + 3 * 2));
+  while(counter <= 10)
+
+  {
+    write(counter);
+    write(f1.evaluate(counter));
+    write(f2.evaluate(counter));
+  };
+}
+
+/*
+    classes
+    --------------------------------------
+| | no class declaration
+|X| class declaration
+| | multiple class declarations
+| | no data member declaration
+| | data member declaration
+| | multiple data member declaration
+|X| no member function declaration
+| | member function declaration
+| | multiple member function declaration
+| | no member
+| | no inherited class
+| | one inherited class
+|X| multiple inherited classes
+| | private member specifier
+| | public member specifier
+| | absence of member specifier
+
+    functions: definitions
+    --------------------------------------
+| | no main function definition (not allowed)
+|X| main function definition
+| | multiple main function definitions (not allowed)
+| | no free function definition
+|X| free function definition
+|X| multiple free function definitions
+|X| no member function definition
+| | member function definition
+| | multiple member function definitions
+|X| return type: void
+|X| return type: integer
+| | return type: float
+|X| return type: string
+| | return type: id
+| | return type: array (not allowed)
+
+
+    functions: formal parameters
+    --------------------------------------
+|X| type: integer
+| | type: float
+|X| type: string
+|X| type: id
+|X| type: 1-dim array
+|X| type: n-dim array
+|X| type: array (with size)
+|X| type: array (without size)
+
+    functions: calls
+    --------------------------------------
+|X| free function call
+|X| member function call
+|X| parameters:0
+|X| parameters:1
+|X| parameters:n
+|X| array parameter - 1-dim
+|X| array parameter - n-dim
+|X| array parameter - with size
+|X| array parameter - without size
+|X| function call as statement
+|X| function call as expression factor
+|X| expression as parameter
+
+    variable declaration
+    --------------------------------------
+|X| type: integer
+|X| type: float
+|X| type: string
+|X| type: id
+|X| type: 1-dim array
+|X| type: n-dim array
+|X| type: array (with size)
+|X| type: array (without size)
+
+    function body: local variable declaration block
+    --------------------------------------
+| | no local variable declarations block
+|X| local variable declaration block
+| | multiple local variable declarations block (not allowed)
+| | no variables in block
+|X| 1 variable declared in block
+|X| multiple variables declared in block
+
+    function body: statements
+    --------------------------------------
+| | no statement
+| | 1 statement
+|X| n statements
+| | if statement
+| | if: empty then or else blocks
+| | if: 1-statement then or else blocks
+| | if: n-statements then or else blocks
+|X| while statement
+| | while: empty block
+| | while: 1-statement block
+|X| while: n-statement block
+| | read(<variable>) statement
+|X| write(<expr>) statement
+|X| return(<expr>) statement
+| | break statement
+| | continue statement
+|X| assignment statement
+
+    variable + idnest
+    --------------------------------------
+|X| id
+|X| id.id
+|X| id.id(id)
+| | id(id).id
+| | id(id).id()
+| | id.id[id]
+| | id[id].id
+| | id[id].id[id]
+| | id.id[id][id]
+| | id[id][id].id
+| | id[id][id].id[id][id]
+| | id(id).id[id]
+| | id(id).id[id][id]
+| | expression as array index
+
+    expressions
+    --------------------------------------
+| | single variable
+| | involving addop
+| | involving multop
+| | involving relop
+|X| involving addop + multop
+| | involving multop + relop
+| | involving addop + multop + relop
+| | involving parentheses
+| | involving nested parenhteses
+| | involving ternary operator
+| | involving not
+| | involving sign
+| | involving literals
+|X| involving variable + idnest
+|X| involving function calls
+| | involving all the above in one expression
+*/

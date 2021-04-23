@@ -1,0 +1,50 @@
+
+=====================================================
+| table: global           scope offset: 0           |
+=====================================================
+| func      | bubbleSort| (integer integer )void|           |
+|    |    =====================================================
+|    |    | table: ::bubbleSort     scope offset: 0           |
+|    |    =====================================================
+|    |    | param     | arr       | integer   | [0]       | 0     | 0     |
+|    |    | param     | size      | integer   | null      | 0     | 0     |
+|    |    | local     | n         | integer   | null      | 0     | 0     |
+|    |    | local     | i         | integer   | null      | 0     | 0     |
+|    |    | local     | j         | integer   | null      | 0     | 0     |
+|    |    | local     | temp      | integer   | null      | 0     | 0     |
+|    |    =====================================================
+| func      | printArray| (integer integer )void|           |
+|    |    =====================================================
+|    |    | table: ::printArray     scope offset: 0           |
+|    |    =====================================================
+|    |    | param     | arr       | integer   | [0]       | 0     | 0     |
+|    |    | param     | size      | integer   | null      | 0     | 0     |
+|    |    | local     | n         | integer   | null      | 0     | 0     |
+|    |    | local     | i         | integer   | null      | 0     | 0     |
+|    |    =====================================================
+| func      | bubbleSort| (integer integer )void|           |
+|    |    =====================================================
+|    |    | table: ::bubbleSort     scope offset: 0           |
+|    |    =====================================================
+|    |    | param     | arr       | integer   | [0]       | 0     | 0     |
+|    |    | param     | size      | integer   | null      | 0     | 0     |
+|    |    | local     | n         | integer   | null      | 0     | 0     |
+|    |    | local     | i         | integer   | null      | 0     | 0     |
+|    |    | local     | j         | integer   | null      | 0     | 0     |
+|    |    | local     | temp      | integer   | null      | 0     | 0     |
+|    |    =====================================================
+| func      | printArray| (integer integer )void|           |
+|    |    =====================================================
+|    |    | table: ::printArray     scope offset: 0           |
+|    |    =====================================================
+|    |    | param     | arr       | integer   | [0]       | 0     | 0     |
+|    |    | param     | size      | integer   | null      | 0     | 0     |
+|    |    | local     | n         | integer   | null      | 0     | 0     |
+|    |    | local     | i         | integer   | null      | 0     | 0     |
+|    |    =====================================================
+| func      | main      | ()        |           |
+|    |    =====================================================
+|    |    | table: ::main           scope offset: 0           |
+|    |    =====================================================
+|    |    =====================================================
+=====================================================

@@ -1,0 +1,317 @@
+Prog
+     Class List
+          Class Decl
+               id: POLYNOMIAL :[1]
+               Inher List
+                    id: Linear :[1]
+                    id: Quadratic :[1]
+               Memb List
+                    EPSILON
+     Func Def List
+          Func Def
+               Type: void :[4]
+               Scope Spec
+                    EPSILON
+               id: bubbleSort :[4]
+               FParm List
+                    FParam
+                         Type: integer :[4]
+                         integer: arr :[4]
+                         Dim List
+                              empty
+                    FParam
+                         Type: string :[4]
+                         id: size :[4]
+                         Dim List
+                              EPSILON
+               StatBlock
+                    Var Decl List
+                         EPSILON
+                    StatmentList
+                         EPSILON
+          Func Def
+               Type: void :[6]
+               Scope Spec
+                    EPSILON
+               id: bubbleSort :[6]
+               FParm List
+                    FParam
+                         Type: integer :[6]
+                         integer: arr :[6]
+                         Dim List
+                              empty
+               StatBlock
+                    Var Decl List
+                         EPSILON
+                    StatmentList
+                         EPSILON
+          Func Def
+               Type: int :[8]
+               Scope Spec
+                    EPSILON
+               id: evaluate :[8]
+               FParm List
+                    EPSILON
+               StatBlock
+                    Var Decl List
+                         EPSILON
+                    Statement List
+                         Return
+                              Expr
+                                   intnum: 1 :[8]
+          Func Def
+               Type: string :[10]
+               Scope Spec
+                    EPSILON
+               id: toString :[10]
+               FParm List
+                    FParam
+                         Type: abc :[10]
+                         abc: a :[10]
+                         Dim List
+                              10
+               StatBlock
+                    Var Decl List
+                         EPSILON
+                    Statement List
+                         Return
+                              Expr
+                                   Var
+                                        id: hello :[11]
+                                        EPSILON
+          Func Def
+               Type: float :[14]
+               Scope Spec
+                    id: POLYNOMIAL :[14]
+               id: evaluate :[14]
+               FParm List
+                    FParam
+                         Type: float :[14]
+                         float: x :[14]
+                         Dim List
+                              EPSILON
+               StatBlock
+                    Var Decl List
+                         EPSILON
+                    Statement List
+                         Return
+                              Expr
+                                   intnum: 0 :[16]
+          Func Def
+               Type: void :[19]
+               Scope Spec
+                    EPSILON
+               id: add :[19]
+               FParm List
+                    FParam
+                         Type: float :[19]
+                         float: a :[19]
+                         Dim List
+                              EPSILON
+                    FParam
+                         Type: float :[19]
+                         id: b :[19]
+                         Dim List
+                              EPSILON
+               StatBlock
+                    Var Decl List
+                         EPSILON
+                    StatmentList
+                         EPSILON
+          Func Def
+               Type: void :[22]
+               Scope Spec
+                    EPSILON
+               id: add :[22]
+               FParm List
+                    FParam
+                         Type: float :[22]
+                         float: a :[22]
+                         Dim List
+                              EPSILON
+                    FParam
+                         Type: float :[22]
+                         id: b :[22]
+                         Dim List
+                              EPSILON
+                    FParam
+                         Type: float :[22]
+                         id: c :[22]
+                         Dim List
+                              EPSILON
+               StatBlock
+                    Var Decl List
+                         EPSILON
+                    StatmentList
+                         EPSILON
+     Main
+          Var Decl List
+               Var Decl
+                    Type: linear :[30]
+                    id: f1 :[30]
+                    Dim List
+                         EPSILON
+               Var Decl
+                    Type: quadratic :[31]
+                    id: f2 :[31]
+                    Dim List
+                         EPSILON
+               Var Decl
+                    Type: integer :[32]
+                    id: counter :[32]
+                    Dim List
+                         EPSILON
+               Var Decl
+                    Type: string :[33]
+                    id: s1 :[33]
+                    Dim List
+                         EPSILON
+               Var Decl
+                    Type: float :[34]
+                    id: f2 :[34]
+                    Dim List
+                         EPSILON
+               Var Decl
+                    Type: integer :[35]
+                    id: arr :[35]
+                    Dim List
+                         7
+               Var Decl
+                    Type: integer :[36]
+                    id: arr :[36]
+                    Dim List
+                         10
+                         10
+                         10
+               Var Decl
+                    Type: integer :[37]
+                    id: arr3 :[37]
+                    Dim List
+                         empty
+          Statement List
+               Fcall
+                    id: evaluate :[39]
+                    AParams
+                         EPSILON
+               Assign Stat
+                    Assign: = :[40]
+                         Var
+                              id: f1 :[40]
+                              EPSILON
+                         Expr
+                              .
+                                   Var
+                                        id: f1 :[40]
+                                        EPSILON
+                                   Fcall
+                                        id: build :[40]
+                                        AParams
+                                             Expr
+                                                  intnum: 2 :[40]
+                                             Expr
+                                                  floatnum: 3.5 :[40]
+               Assign Stat
+                    Assign: = :[41]
+                         Var
+                              id: f2 :[41]
+                              EPSILON
+                         Expr
+                              .
+                                   Var
+                                        id: f2 :[41]
+                                        EPSILON
+                                   Fcall
+                                        id: build :[41]
+                                        AParams
+                                             Expr
+                                                  minus: - :[41]
+                                                       floatnum: 2.0 :[41]
+                                             Expr
+                                                  floatnum: 1.0 :[41]
+                                             Expr
+                                                  floatnum: 0.0 :[41]
+               Assign Stat
+                    Assign: = :[42]
+                         Var
+                              id: counter :[42]
+                              EPSILON
+                         Expr
+                              intnum: 1 :[42]
+               Fcall
+                    id: bubbleSort :[43]
+                    AParams
+                         Expr
+                              Var
+                                   id: arr :[43]
+                                   EPSILON
+                         Expr
+                              intnum: 7 :[43]
+               Fcall
+                    id: bubbleSort :[44]
+                    AParams
+                         Expr
+                              Var
+                                   id: arr3 :[44]
+                                   Index List
+                                        Expr
+                                             intnum: 10 :[44]
+               Fcall
+                    id: bubbleSort :[45]
+                    AParams
+                         Expr
+                              Var
+                                   id: arr2 :[45]
+                                   Index List
+                                        Expr
+                                             intnum: 10 :[45]
+                                        Expr
+                                             intnum: 10 :[45]
+                                        Expr
+                                             intnum: 10 :[45]
+                         Expr
+                              Expr
+                                   +
+                                        intnum: 4 :[45]
+                                        *
+                                             intnum: 3 :[45]
+                                             intnum: 2 :[45]
+               While Stat
+                    Expr
+                         leq: <= :[46]
+                              Var
+                                   id: counter :[46]
+                                   EPSILON
+                              intnum: 10 :[46]
+                    Statement List
+                         Write
+                              Expr
+                                   Var
+                                        id: counter :[49]
+                                        EPSILON
+                         Write
+                              Expr
+                                   .
+                                        Var
+                                             id: f1 :[50]
+                                             EPSILON
+                                        Fcall
+                                             id: evaluate :[50]
+                                             AParams
+                                                  Expr
+                                                       Var
+                                                            id: counter :[50]
+                                                            EPSILON
+                         Write
+                              Expr
+                                   .
+                                        Var
+                                             id: f2 :[51]
+                                             EPSILON
+                                        Fcall
+                                             id: evaluate :[51]
+                                             AParams
+                                                  Expr
+                                                       Var
+                                                            id: counter :[51]
+                                                            EPSILON
+

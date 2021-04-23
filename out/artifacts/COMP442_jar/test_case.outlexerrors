@@ -1,0 +1,13 @@
+Lexical error: Invalid character: "@": line9.
+Lexical error: Invalid character: "#": line9.
+Lexical error: Invalid character: "$": line10.
+Lexical error: Invalid character: "\": line11.
+Lexical error: Invalid character: "~": line12.
+Lexical error: Invalid identifier: "1.23e-+10": line16.
+Lexical error: Invalid number: "120.540e1020": line17.
+Lexical error: Invalid identifier: "045.540eeeee123": line18.
+Lexical error: Invalid number: "1.23e+0101": line19.
+Lexical error: Invalid identifier: "9abc": line23.
+Lexical error: Invalid identifier: "@12345": line24.
+Lexical error: Invalid identifier: "gmail.com": line25.
+Lexical error: Invalid Block Comment: "/*this is an incorrect block\ncomment\nthis\nis\nincomplete *\n": line41.
